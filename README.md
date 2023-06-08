@@ -19,7 +19,6 @@ SRPM_DIR="./srpm"
 LOG_DIR="./logs"
 
 rm -rf $LOG_DIR && mkdir -p $LOG_DIR
-rm -rf $SRPM_DIR && mkdir -p $SRPM_DIR
 
 for srpm in $SRPM_DIR/*.src.rpm; do
     name=$(basename "$srpm" .src.rpm)
