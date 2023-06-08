@@ -2,7 +2,7 @@
 
 ## srpm-get
 
-https://github.com/U2FsdGVkX1/srpm-get
+https://github.com/fedora-riscv/srpm-get
 
 为了方便 rpm 自举阶段编译出最小的 Fedora 系统，我使用 Python 编写出一个小工具自动从 openkoji 拉对应的 srpm 方便编译
 
