@@ -25,3 +25,15 @@ for srpm in $SRPM_DIR/*.src.rpm; do
     rpmbuild --nodeps --rebuild "$srpm" > "$LOG_DIR/$name.log" 2>&1 || true
 done
 ```
+
+## fedora 的 srpm 编包注意
+
+由于 Fedora 的 srpm 针对 RedHat 平台有一些私货，比如 file 和 autoconf 等一众 srpm 编译失败的原因是
+
+%{gpgverify} 这个宏不存在，而正常情况下这个宏由 redhat-rpm-config 这个包定义
+
+如果没有这个宏的情况下许多包会出现
+
+```
+/usr/var/tmp/rpm-tmp.wh3r3c: line 29: fg: no job control
+```
