@@ -73,38 +73,38 @@ python3 main.py xxx
 
 为了编译 Fedora RV32 所需的包，本文剩余的内容都将采用上面语法描述未来会踩的坑
 
-[开始之前](rpm-builder/%E5%BC%80%E5%A7%8B%E4%B9%8B%E5%89%8D)
+[开始之前](rpm-builder/%E5%BC%80%E5%A7%8B%E4%B9%8B%E5%89%8D.md)
 
-[nano](rpm-builder/nano)
+[nano](rpm-builder/nano.md)
 
-[Fedora 自带的宏](rpm-builder/Fedora%20%E8%87%AA%E5%B8%A6%E7%9A%84%E5%AE%8F)
+[Fedora 自带的宏](rpm-builder/Fedora%20%E8%87%AA%E5%B8%A6%E7%9A%84%E5%AE%8F.md)
 
-[autotool](rpm-builder/autotool)
+[autotool](rpm-builder/autotool.md)
 
-[annobin](rpm-builder/annobin)
+[annobin](rpm-builder/annobin.md)
 
-[gnupg2](rpm-builder/gnupg2)
+[gnupg2](rpm-builder/gnupg2.md)
 
-[cmake](rpm-builder/cmake)
+[cmake](rpm-builder/cmake.md)
 
-[ruby](rpm-builder/ruby)
+[ruby](rpm-builder/ruby.md)
 
-[libselinux](rpm-builder/libselinux)
+[libselinux](rpm-builder/libselinux.md)
 
-[texinfo](rpm-builder/texinfo)
+[texinfo](rpm-builder/texinfo.md)
 
-[gnutls](rpm-builder/gnutls)
+[gnutls](rpm-builder/gnutls.md)
 
-[elfutils](rpm-builder/elfutils)
+[elfutils](rpm-builder/elfutils.md)
 
-[docbook](rpm-builder/docbook)
+[docbook](rpm-builder/docbook.md)
 
-[glib](rpm-builder/glib)
+[glib](rpm-builder/glib.md)
 
-[chkconfig](rpm-builder/chkconfig)
+[chkconfig](rpm-builder/chkconfig.md)
 
-[openldap](rpm-builder/openldap)
+[openldap](rpm-builder/openldap.md)
 
-[e2fsprogs](rpm-builder/e2fsprogs)
+[e2fsprogs](rpm-builder/e2fsprogs.md)
 
-[pam](rpm-builder/pam)
+[pam](rpm-builder/pam.md)
