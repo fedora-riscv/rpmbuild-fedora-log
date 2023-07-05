@@ -33,6 +33,12 @@
 - name: python-rpmautospec
   nobuild: true
   install: [rpmautospec-rpm-macros]
+- name: python-wheel # for pyproject-rpm-macros
+  nobuild: true
+  install: [python3-wheel]
+- name: pyproject-rpm-macros
+  nobuild: true
+  install: [pyproject-rpm-macros]
 - name: perl
   nobuild: true
   install: [perl-macros]

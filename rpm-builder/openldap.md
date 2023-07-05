@@ -5,8 +5,6 @@
 而且有个很坑的地方是——openldap 依赖 cyrus-sasl，而 cyrus-sasl 依赖 krb5，krb5 又依赖 openldap，所以形成循环依赖，必须要斩断依赖
 
 ```yaml
-- name: libevent # for openldap
-  install: [libevent, libevent-devel]
 - name: groff # for openldap
   install: [groff, groff-base]
   define:
@@ -31,6 +29,8 @@
     - sed -i '/sasldblistusers2/d' %SPEC
     - sed -i '/\*gssapi\*.so\*/d' %SPEC
     - sed -i '/libgs2.so\*/d' %SPEC
+- name: libevent # for openldap
+  install: [libevent, libevent-devel]
 - name: cracklib # for openldap
   install: [cracklib, cracklib-devel]
 

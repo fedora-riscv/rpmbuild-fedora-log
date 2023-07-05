@@ -75,21 +75,17 @@ python3 main.py xxx
 
 [开始之前](rpm-builder/%E5%BC%80%E5%A7%8B%E4%B9%8B%E5%89%8D.md)
 
-[nano](rpm-builder/nano.md)
-
 [Fedora 自带的宏](rpm-builder/Fedora%20%E8%87%AA%E5%B8%A6%E7%9A%84%E5%AE%8F.md)
 
 [autotool](rpm-builder/autotool.md)
+
+[nano](rpm-builder/nano.md)
 
 [annobin](rpm-builder/annobin.md)
 
 [gnupg2](rpm-builder/gnupg2.md)
 
-[cmake](rpm-builder/cmake.md)
-
-[ruby](rpm-builder/ruby.md)
-
-[libselinux](rpm-builder/libselinux.md)
+[编译辅助工具](rpm-builder/%E7%BC%96%E8%AF%91%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7.md)
 
 [texinfo](rpm-builder/texinfo.md)
 
@@ -99,12 +95,18 @@ python3 main.py xxx
 
 [docbook](rpm-builder/docbook.md)
 
+[libselinux](rpm-builder/libselinux.md)
+
 [glib](rpm-builder/glib.md)
+
+[ruby](rpm-builder/ruby.md)
+
+[e2fsprogs](rpm-builder/e2fsprogs.md)
 
 [chkconfig](rpm-builder/chkconfig.md)
 
 [openldap](rpm-builder/openldap.md)
 
-[e2fsprogs](rpm-builder/e2fsprogs.md)
+[krb5](rpm-builder/krb5.md)
 
 [pam](rpm-builder/pam.md)

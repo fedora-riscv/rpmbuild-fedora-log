@@ -5,10 +5,8 @@
 ```yaml
 - name: libyaml # for ruby
   install: [libyaml, libyaml-devel]
-- name: readline # for ruby
-  install: [readline, readline-devel]
 - name: ruby # will error in qemu user mode
-  without: [rubypick, systemtap, hardening_test, yjit]
+  without: [rubypick, hardening_test, yjit]
   install: [ruby, ruby-devel, rubygems]
 ```
 

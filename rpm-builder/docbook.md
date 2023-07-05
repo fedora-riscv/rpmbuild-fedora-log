@@ -24,7 +24,7 @@
 - name: docbook-dtds # for docbook-utils
   nobuild: true
   install: [docbook-dtds]
-- name: docbook-utils # for newt
+- name: docbook-utils # for newt in chkconfig
   nobuild: true
   install: [docbook-utils]
 
@@ -33,7 +33,7 @@
   install: [docbook-xsl]
 - name: libxslt # for xmlto
   install: [libxslt, libxslt-devel]
-- name: xmlto # for nss
+- name: xmlto # for nss in glib
   install: [xmlto]
 ```
 
